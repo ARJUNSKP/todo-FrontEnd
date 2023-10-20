@@ -1,0 +1,63 @@
+#slider{
+    width: 20rem;
+    background-color: rgb(189, 189, 189);
+    height: 100vh;
+}
+.sliderHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+.addbtn{
+    margin:0 2.5rem;
+}
+.candent{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+}
+.candent label{
+    gap: 1rem;
+}
+#menuicon{
+    display: none;
+}
+#taskcondent{
+    border-radius:2rem;
+    padding:1rem 2rem;
+    background-color: #92929221;
+    border: 1px solid #8888;
+    height: auto;
+}
+#condiner{
+    width: auto;
+}
+.taskHead{
+    display: flex;
+    justify-content: space-between;
+}
+.deleteicon{
+    /* position:relative;
+    left:6rem;
+    bottom:.3rem */
+}
+.deleteicon:hover{
+    scale: 1.3
+}
+
+
+@media screen and (max-width:800px){
+    #menuicon{
+        display: block;
+    }
+    #slider{
+        display: none;
+    }
+}
+@media screen and (max-width:570px){
+    .taskHead{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
